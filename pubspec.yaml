@@ -1,0 +1,31 @@
+name: az_store
+description: AZ Store offline inventory, credit and expense manager.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.10.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^13.1.0
+  share_plus: ^13.3.1
+  path_provider: ^2.1.5
+  local_auth: ^3.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/az_store_icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/config.json
